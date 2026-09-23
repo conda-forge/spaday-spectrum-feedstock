@@ -1,5 +1,5 @@
 context:
-  version: "0.2.0"
+  version: "0.3.0"
 
 package:
   name: spaday-spectrum
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/spaday-spectrum/spaday_spectrum-${{ version }}.tar.gz
-  sha256: a7af6f2dc4a2dfd9d12d3560d8b9398a71f9e45c961d4ee3c944c14dedd4eeaf
+  sha256: d8b8fed71e56b8978c5c30e57a766d6b897128fef87db1868cebd9edd9668268
 
 build:
   number: 0
