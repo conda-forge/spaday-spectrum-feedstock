@@ -1,5 +1,5 @@
 context:
-  version: "0.3.0"
+  version: "0.4.0"
 
 package:
   name: spaday-spectrum
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/spaday-spectrum/spaday_spectrum-${{ version }}.tar.gz
-  sha256: d8b8fed71e56b8978c5c30e57a766d6b897128fef87db1868cebd9edd9668268
+  sha256: f284d69c7ce5870e303f8ecdbd7a76d198b0f2006531cdd96ae0a22cc674376a
 
 build:
   number: 0
@@ -26,7 +26,7 @@ requirements:
     - hatch-js
   run:
     - python >=${{ python_min }}
-    - spaday >=0.10.0,<1
+    - spaday >=0.11.1,<1.0
 
 tests:
   - python:
